@@ -17,6 +17,7 @@
 		67C9D3F51F8E651900464D83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67C9D3F31F8E651900464D83 /* LaunchScreen.storyboard */; };
 		67C9D4001F8E651900464D83 /* CPR_Simulator_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C9D3FF1F8E651900464D83 /* CPR_Simulator_ProjectTests.swift */; };
 		67C9D40B1F8E651900464D83 /* CPR_Simulator_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C9D40A1F8E651900464D83 /* CPR_Simulator_ProjectUITests.swift */; };
+		67CB20BC1F94A419003A1F41 /* WhatCPRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67CB20BB1F94A419003A1F41 /* WhatCPRViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		67C9D4061F8E651900464D83 /* CPR Simulator ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CPR Simulator ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		67C9D40A1F8E651900464D83 /* CPR_Simulator_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPR_Simulator_ProjectUITests.swift; sourceTree = "<group>"; };
 		67C9D40C1F8E651900464D83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67CB20BB1F94A419003A1F41 /* WhatCPRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatCPRViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,9 +94,10 @@
 		67A401F41F9146A1001EE1BF /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				67C9D3E71F8E651900464D83 /* AppDelegate.swift */,
 				67C9D3E91F8E651900464D83 /* ViewController.swift */,
 				67A401F71F914753001EE1BF /* MainViewController.swift */,
-				67C9D3E71F8E651900464D83 /* AppDelegate.swift */,
+				67CB20BB1F94A419003A1F41 /* WhatCPRViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -308,6 +311,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67CB20BC1F94A419003A1F41 /* WhatCPRViewController.swift in Sources */,
 				67C9D3EA1F8E651900464D83 /* ViewController.swift in Sources */,
 				67C9D3F01F8E651900464D83 /* CPR_Simulator_Project.xcdatamodeld in Sources */,
 				67C9D3E81F8E651900464D83 /* AppDelegate.swift in Sources */,
@@ -485,7 +489,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.chimdolin.CPR-Simulator-Project";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -500,7 +504,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.chimdolin.CPR-Simulator-Project";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};

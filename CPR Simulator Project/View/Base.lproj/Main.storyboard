@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="wdR-jf-hw8">
-    <device id="ipad12_9" orientation="portrait">
+    <device id="ipad10_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -14,7 +14,7 @@
             <objects>
                 <navigationController id="wdR-jf-hw8" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="DtG-Uu-B0B">
-                        <rect key="frame" x="0.0" y="20" width="1024" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="834" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -24,24 +24,28 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UPt-6y-2Ue" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1114" y="1"/>
+            <point key="canvasLocation" x="-1086" y="25"/>
         </scene>
         <!--Main View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="MainViewController" customModule="CPR_Simulator_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
+                        <rect key="frame" x="0.0" y="0.0" width="834" height="1112"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ERv-tT-h2w">
-                                <rect key="frame" x="0.0" y="0.0" width="1024" height="783"/>
+                                <rect key="frame" x="0.0" y="0.0" width="834" height="529"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background-gray" translatesAutoresizingMaskIntoConstraints="NO" id="pl4-GB-CL3">
-                                        <rect key="frame" x="0.0" y="0.0" width="1024" height="783"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Ek-mt-AcS">
+                                        <rect key="frame" x="0.0" y="0.0" width="834" height="529"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.84999999999999998" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background-gray" translatesAutoresizingMaskIntoConstraints="NO" id="pl4-GB-CL3">
+                                        <rect key="frame" x="0.0" y="0.0" width="834" height="529"/>
                                     </imageView>
-                                    <view alpha="0.59999999999999998" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jBr-dP-4nt" customClass="UIViewX" customModule="CPR_Simulator_Project" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="1024" height="783"/>
+                                    <view alpha="0.80000000000000004" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jBr-dP-4nt" customClass="UIViewX" customModule="CPR_Simulator_Project" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="834" height="529"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="color" keyPath="firstColor">
@@ -54,15 +58,18 @@
                                         </userDefinedRuntimeAttributes>
                                     </view>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cpr-text" translatesAutoresizingMaskIntoConstraints="NO" id="2H1-f4-AG8">
-                                        <rect key="frame" x="320" y="626" width="382" height="126"/>
+                                        <rect key="frame" x="261" y="423" width="311" height="85"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="simulator" translatesAutoresizingMaskIntoConstraints="NO" id="7Gw-HQ-OD8">
-                                        <rect key="frame" x="368" y="169" width="288" height="420"/>
+                                        <rect key="frame" x="300" y="114" width="234" height="284"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                 </subviews>
                                 <constraints>
+                                    <constraint firstItem="1Ek-mt-AcS" firstAttribute="top" secondItem="ERv-tT-h2w" secondAttribute="top" id="1Pr-JR-cvr"/>
+                                    <constraint firstAttribute="bottom" secondItem="1Ek-mt-AcS" secondAttribute="bottom" id="4bV-9y-eqI"/>
+                                    <constraint firstItem="1Ek-mt-AcS" firstAttribute="leading" secondItem="ERv-tT-h2w" secondAttribute="leading" id="F79-xz-3Mk"/>
                                     <constraint firstAttribute="trailing" secondItem="jBr-dP-4nt" secondAttribute="trailing" id="KtI-F2-g39"/>
                                     <constraint firstItem="pl4-GB-CL3" firstAttribute="leading" secondItem="ERv-tT-h2w" secondAttribute="leading" id="M86-tc-95W"/>
                                     <constraint firstAttribute="trailing" secondItem="pl4-GB-CL3" secondAttribute="trailing" id="NIb-Vz-Gz4"/>
@@ -71,20 +78,24 @@
                                     <constraint firstItem="pl4-GB-CL3" firstAttribute="top" secondItem="ERv-tT-h2w" secondAttribute="top" id="hZv-2Z-Uom"/>
                                     <constraint firstAttribute="bottom" secondItem="jBr-dP-4nt" secondAttribute="bottom" id="iUl-JS-ZqK"/>
                                     <constraint firstItem="jBr-dP-4nt" firstAttribute="top" secondItem="ERv-tT-h2w" secondAttribute="top" id="tE4-IL-iB6"/>
+                                    <constraint firstAttribute="trailing" secondItem="1Ek-mt-AcS" secondAttribute="trailing" id="tWT-3Z-TRk"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MRj-dK-sEq">
-                                <rect key="frame" x="20" y="822" width="266" height="250"/>
+                                <rect key="frame" x="20" y="568" width="266" height="250"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wq2-bw-NFK">
                                         <rect key="frame" x="0.0" y="0.0" width="266" height="250"/>
-                                        <color key="backgroundColor" red="0.96470120433463891" green="0.97679094065391325" blue="0.99208835659898476" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.96470120429999995" green="0.97679094070000005" blue="0.99208835660000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="38"/>
                                         <size key="titleShadowOffset" width="4" height="3"/>
                                         <state key="normal" title="CPR คืออะไร ?">
                                             <color key="titleColor" red="0.1764705882352941" green="0.15686274509803921" blue="0.19607843137254902" alpha="0.6974796660958904" colorSpace="custom" customColorSpace="displayP3"/>
                                             <color key="titleShadowColor" red="0.5607843137254902" green="0.76078431372549016" blue="0.94117647058823528" alpha="0.40000000000000002" colorSpace="custom" customColorSpace="displayP3"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="J3w-S2-WcW" kind="show" id="Tv1-ie-Zcb"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -96,11 +107,11 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yCb-Ue-PPl">
-                                <rect key="frame" x="318" y="822" width="686" height="250"/>
+                                <rect key="frame" x="318" y="568" width="496" height="250"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kAE-gf-ZTn">
-                                        <rect key="frame" x="0.0" y="0.0" width="686" height="250"/>
-                                        <color key="backgroundColor" red="0.85938162279241082" green="0.90027872505169548" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="496" height="250"/>
+                                        <color key="backgroundColor" red="0.96470120429999995" green="0.97679094070000005" blue="0.99208835660000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="38"/>
                                         <size key="titleShadowOffset" width="4" height="3"/>
                                         <state key="normal" title="เรียนรู้การทำ CPR">
@@ -118,11 +129,11 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rtf-Gp-VUj">
-                                <rect key="frame" x="20" y="1099" width="984" height="247"/>
+                                <rect key="frame" x="20" y="845" width="794" height="247"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KB7-w6-oY9">
-                                        <rect key="frame" x="0.0" y="0.0" width="984" height="247"/>
-                                        <color key="backgroundColor" red="0.95942909414604827" green="0.94509620883263601" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="794" height="247"/>
+                                        <color key="backgroundColor" red="0.84548929880000001" green="0.96726284900000004" blue="0.90525725349999997" alpha="0.2284086044520548" colorSpace="custom" customColorSpace="displayP3"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="52"/>
                                         <size key="titleShadowOffset" width="4" height="3"/>
                                         <state key="normal" title="เริ่มทำ CPR">
@@ -140,7 +151,7 @@
                                 </constraints>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" red="0.99100883749023816" green="0.98622135518352205" blue="0.99579631979695427" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.99215686274509807" green="0.98431372549019602" blue="0.99607843137254903" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="rtf-Gp-VUj" secondAttribute="bottom" constant="20" id="FuH-Iu-eNE"/>
                             <constraint firstItem="ERv-tT-h2w" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="FvH-r8-1Qk"/>
@@ -164,12 +175,28 @@
                         <outlet property="headerTransitionView" destination="jBr-dP-4nt" id="fTl-GP-olK"/>
                         <outlet property="howToCPRBtn" destination="kAE-gf-ZTn" id="VEA-6m-PS0"/>
                         <outlet property="startCPRBtn" destination="KB7-w6-oY9" id="y7r-Jw-cea"/>
+                        <outlet property="viewShadow" destination="1Ek-mt-AcS" id="en4-fJ-ifm"/>
                         <outlet property="whatCPRBtn" destination="Wq2-bw-NFK" id="D3r-g4-cpv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-299.28057553956836" y="0.53956834532374098"/>
+            <point key="canvasLocation" x="-458.27338129496405" y="24.820143884892087"/>
+        </scene>
+        <!--WhatCPR View Controller-->
+        <scene sceneID="PJO-Ic-Ijh">
+            <objects>
+                <viewController id="J3w-S2-WcW" customClass="WhatCPRViewController" customModule="CPR_Simulator_Project" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lCi-3v-O17">
+                        <rect key="frame" x="0.0" y="0.0" width="834" height="1112"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.99215686274509807" green="0.98431372549019602" blue="0.99607843137254903" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="6Hu-Z6-Utx"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MRZ-Rb-U5G" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="262" y="25"/>
         </scene>
     </scenes>
     <resources>
