@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		67A401F81F914753001EE1BF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A401F71F914753001EE1BF /* MainViewController.swift */; };
+		67B730AE1F9490C1003FE9C2 /* UIViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B730AD1F9490C1003FE9C2 /* UIViewX.swift */; };
 		67C9D3E81F8E651900464D83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C9D3E71F8E651900464D83 /* AppDelegate.swift */; };
 		67C9D3EA1F8E651900464D83 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C9D3E91F8E651900464D83 /* ViewController.swift */; };
 		67C9D3ED1F8E651900464D83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67C9D3EB1F8E651900464D83 /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		67A401F71F914753001EE1BF /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		67B730AD1F9490C1003FE9C2 /* UIViewX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewX.swift; sourceTree = "<group>"; };
 		67C9D3E41F8E651900464D83 /* CPR Simulator Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CPR Simulator Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		67C9D3E71F8E651900464D83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		67C9D3E91F8E651900464D83 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -114,6 +116,14 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		67B730AA1F94904B003FE9C2 /* DesignableX */ = {
+			isa = PBXGroup;
+			children = (
+				67B730AD1F9490C1003FE9C2 /* UIViewX.swift */,
+			);
+			path = DesignableX;
+			sourceTree = "<group>";
+		};
 		67C9D3DB1F8E651800464D83 = {
 			isa = PBXGroup;
 			children = (
@@ -141,6 +151,7 @@
 				67A401F51F9146A9001EE1BF /* View */,
 				67A401F41F9146A1001EE1BF /* Controller */,
 				67A401F31F91467C001EE1BF /* Supporting Files */,
+				67B730AA1F94904B003FE9C2 /* DesignableX */,
 			);
 			path = "CPR Simulator Project";
 			sourceTree = "<group>";
@@ -300,6 +311,7 @@
 				67C9D3EA1F8E651900464D83 /* ViewController.swift in Sources */,
 				67C9D3F01F8E651900464D83 /* CPR_Simulator_Project.xcdatamodeld in Sources */,
 				67C9D3E81F8E651900464D83 /* AppDelegate.swift in Sources */,
+				67B730AE1F9490C1003FE9C2 /* UIViewX.swift in Sources */,
 				67A401F81F914753001EE1BF /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
