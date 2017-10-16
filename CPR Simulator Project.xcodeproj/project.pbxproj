@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67A401F81F914753001EE1BF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A401F71F914753001EE1BF /* MainViewController.swift */; };
+		67C9D3E81F8E651900464D83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C9D3E71F8E651900464D83 /* AppDelegate.swift */; };
+		67C9D3EA1F8E651900464D83 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C9D3E91F8E651900464D83 /* ViewController.swift */; };
+		67C9D3ED1F8E651900464D83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67C9D3EB1F8E651900464D83 /* Main.storyboard */; };
+		67C9D3F01F8E651900464D83 /* CPR_Simulator_Project.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 67C9D3EE1F8E651900464D83 /* CPR_Simulator_Project.xcdatamodeld */; };
+		67C9D3F21F8E651900464D83 /* image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67C9D3F11F8E651900464D83 /* image.xcassets */; };
+		67C9D3F51F8E651900464D83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67C9D3F31F8E651900464D83 /* LaunchScreen.storyboard */; };
+		67C9D4001F8E651900464D83 /* CPR_Simulator_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C9D3FF1F8E651900464D83 /* CPR_Simulator_ProjectTests.swift */; };
+		67C9D40B1F8E651900464D83 /* CPR_Simulator_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C9D40A1F8E651900464D83 /* CPR_Simulator_ProjectUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		67C9D3FC1F8E651900464D83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67C9D3DC1F8E651800464D83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67C9D3E31F8E651900464D83;
+			remoteInfo = "CPR Simulator Project";
+		};
+		67C9D4071F8E651900464D83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67C9D3DC1F8E651800464D83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67C9D3E31F8E651900464D83;
+			remoteInfo = "CPR Simulator Project";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		67A401F71F914753001EE1BF /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		67C9D3E41F8E651900464D83 /* CPR Simulator Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CPR Simulator Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67C9D3E71F8E651900464D83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		67C9D3E91F8E651900464D83 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		67C9D3EC1F8E651900464D83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		67C9D3EF1F8E651900464D83 /* CPR_Simulator_Project.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CPR_Simulator_Project.xcdatamodel; sourceTree = "<group>"; };
+		67C9D3F11F8E651900464D83 /* image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = image.xcassets; sourceTree = "<group>"; };
+		67C9D3F41F8E651900464D83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		67C9D3F61F8E651900464D83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67C9D3FB1F8E651900464D83 /* CPR Simulator ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CPR Simulator ProjectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67C9D3FF1F8E651900464D83 /* CPR_Simulator_ProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPR_Simulator_ProjectTests.swift; sourceTree = "<group>"; };
+		67C9D4011F8E651900464D83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67C9D4061F8E651900464D83 /* CPR Simulator ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CPR Simulator ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67C9D40A1F8E651900464D83 /* CPR_Simulator_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPR_Simulator_ProjectUITests.swift; sourceTree = "<group>"; };
+		67C9D40C1F8E651900464D83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67C9D3E11F8E651900464D83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67C9D3F81F8E651900464D83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67C9D4031F8E651900464D83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67A401F31F91467C001EE1BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				67C9D3F31F8E651900464D83 /* LaunchScreen.storyboard */,
+				67C9D3F61F8E651900464D83 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		67A401F41F9146A1001EE1BF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				67C9D3E91F8E651900464D83 /* ViewController.swift */,
+				67A401F71F914753001EE1BF /* MainViewController.swift */,
+				67C9D3E71F8E651900464D83 /* AppDelegate.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		67A401F51F9146A9001EE1BF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				67C9D3EB1F8E651900464D83 /* Main.storyboard */,
+				67C9D3F11F8E651900464D83 /* image.xcassets */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		67A401F61F9146B0001EE1BF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				67C9D3EE1F8E651900464D83 /* CPR_Simulator_Project.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		67C9D3DB1F8E651800464D83 = {
+			isa = PBXGroup;
+			children = (
+				67C9D3E61F8E651900464D83 /* CPR Simulator Project */,
+				67C9D3FE1F8E651900464D83 /* CPR Simulator ProjectTests */,
+				67C9D4091F8E651900464D83 /* CPR Simulator ProjectUITests */,
+				67C9D3E51F8E651900464D83 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		67C9D3E51F8E651900464D83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67C9D3E41F8E651900464D83 /* CPR Simulator Project.app */,
+				67C9D3FB1F8E651900464D83 /* CPR Simulator ProjectTests.xctest */,
+				67C9D4061F8E651900464D83 /* CPR Simulator ProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67C9D3E61F8E651900464D83 /* CPR Simulator Project */ = {
+			isa = PBXGroup;
+			children = (
+				67A401F61F9146B0001EE1BF /* Model */,
+				67A401F51F9146A9001EE1BF /* View */,
+				67A401F41F9146A1001EE1BF /* Controller */,
+				67A401F31F91467C001EE1BF /* Supporting Files */,
+			);
+			path = "CPR Simulator Project";
+			sourceTree = "<group>";
+		};
+		67C9D3FE1F8E651900464D83 /* CPR Simulator ProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				67C9D3FF1F8E651900464D83 /* CPR_Simulator_ProjectTests.swift */,
+				67C9D4011F8E651900464D83 /* Info.plist */,
+			);
+			path = "CPR Simulator ProjectTests";
+			sourceTree = "<group>";
+		};
+		67C9D4091F8E651900464D83 /* CPR Simulator ProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				67C9D40A1F8E651900464D83 /* CPR_Simulator_ProjectUITests.swift */,
+				67C9D40C1F8E651900464D83 /* Info.plist */,
+			);
+			path = "CPR Simulator ProjectUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67C9D3E31F8E651900464D83 /* CPR Simulator Project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67C9D40F1F8E651900464D83 /* Build configuration list for PBXNativeTarget "CPR Simulator Project" */;
+			buildPhases = (
+				67C9D3E01F8E651900464D83 /* Sources */,
+				67C9D3E11F8E651900464D83 /* Frameworks */,
+				67C9D3E21F8E651900464D83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CPR Simulator Project";
+			productName = "CPR Simulator Project";
+			productReference = 67C9D3E41F8E651900464D83 /* CPR Simulator Project.app */;
+			productType = "com.apple.product-type.application";
+		};
+		67C9D3FA1F8E651900464D83 /* CPR Simulator ProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67C9D4121F8E651900464D83 /* Build configuration list for PBXNativeTarget "CPR Simulator ProjectTests" */;
+			buildPhases = (
+				67C9D3F71F8E651900464D83 /* Sources */,
+				67C9D3F81F8E651900464D83 /* Frameworks */,
+				67C9D3F91F8E651900464D83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67C9D3FD1F8E651900464D83 /* PBXTargetDependency */,
+			);
+			name = "CPR Simulator ProjectTests";
+			productName = "CPR Simulator ProjectTests";
+			productReference = 67C9D3FB1F8E651900464D83 /* CPR Simulator ProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		67C9D4051F8E651900464D83 /* CPR Simulator ProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67C9D4151F8E651900464D83 /* Build configuration list for PBXNativeTarget "CPR Simulator ProjectUITests" */;
+			buildPhases = (
+				67C9D4021F8E651900464D83 /* Sources */,
+				67C9D4031F8E651900464D83 /* Frameworks */,
+				67C9D4041F8E651900464D83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67C9D4081F8E651900464D83 /* PBXTargetDependency */,
+			);
+			name = "CPR Simulator ProjectUITests";
+			productName = "CPR Simulator ProjectUITests";
+			productReference = 67C9D4061F8E651900464D83 /* CPR Simulator ProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67C9D3DC1F8E651800464D83 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = chimdolin;
+				TargetAttributes = {
+					67C9D3E31F8E651900464D83 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					67C9D3FA1F8E651900464D83 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 67C9D3E31F8E651900464D83;
+					};
+					67C9D4051F8E651900464D83 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 67C9D3E31F8E651900464D83;
+					};
+				};
+			};
+			buildConfigurationList = 67C9D3DF1F8E651800464D83 /* Build configuration list for PBXProject "CPR Simulator Project" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67C9D3DB1F8E651800464D83;
+			productRefGroup = 67C9D3E51F8E651900464D83 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67C9D3E31F8E651900464D83 /* CPR Simulator Project */,
+				67C9D3FA1F8E651900464D83 /* CPR Simulator ProjectTests */,
+				67C9D4051F8E651900464D83 /* CPR Simulator ProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67C9D3E21F8E651900464D83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67C9D3F51F8E651900464D83 /* LaunchScreen.storyboard in Resources */,
+				67C9D3F21F8E651900464D83 /* image.xcassets in Resources */,
+				67C9D3ED1F8E651900464D83 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67C9D3F91F8E651900464D83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67C9D4041F8E651900464D83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67C9D3E01F8E651900464D83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67C9D3EA1F8E651900464D83 /* ViewController.swift in Sources */,
+				67C9D3F01F8E651900464D83 /* CPR_Simulator_Project.xcdatamodeld in Sources */,
+				67C9D3E81F8E651900464D83 /* AppDelegate.swift in Sources */,
+				67A401F81F914753001EE1BF /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67C9D3F71F8E651900464D83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67C9D4001F8E651900464D83 /* CPR_Simulator_ProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67C9D4021F8E651900464D83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67C9D40B1F8E651900464D83 /* CPR_Simulator_ProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		67C9D3FD1F8E651900464D83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67C9D3E31F8E651900464D83 /* CPR Simulator Project */;
+			targetProxy = 67C9D3FC1F8E651900464D83 /* PBXContainerItemProxy */;
+		};
+		67C9D4081F8E651900464D83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67C9D3E31F8E651900464D83 /* CPR Simulator Project */;
+			targetProxy = 67C9D4071F8E651900464D83 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		67C9D3EB1F8E651900464D83 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67C9D3EC1F8E651900464D83 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		67C9D3F31F8E651900464D83 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67C9D3F41F8E651900464D83 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		67C9D40D1F8E651900464D83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		67C9D40E1F8E651900464D83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67C9D4101F8E651900464D83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JFCPWFGWUM;
+				INFOPLIST_FILE = "$(SRCROOT)/CPR Simulator Project/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chimdolin.CPR-Simulator-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		67C9D4111F8E651900464D83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JFCPWFGWUM;
+				INFOPLIST_FILE = "$(SRCROOT)/CPR Simulator Project/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chimdolin.CPR-Simulator-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		67C9D4131F8E651900464D83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JFCPWFGWUM;
+				INFOPLIST_FILE = "CPR Simulator ProjectTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chimdolin.CPR-Simulator-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CPR Simulator Project.app/CPR Simulator Project";
+			};
+			name = Debug;
+		};
+		67C9D4141F8E651900464D83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JFCPWFGWUM;
+				INFOPLIST_FILE = "CPR Simulator ProjectTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chimdolin.CPR-Simulator-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CPR Simulator Project.app/CPR Simulator Project";
+			};
+			name = Release;
+		};
+		67C9D4161F8E651900464D83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JFCPWFGWUM;
+				INFOPLIST_FILE = "CPR Simulator ProjectUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chimdolin.CPR-Simulator-ProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CPR Simulator Project";
+			};
+			name = Debug;
+		};
+		67C9D4171F8E651900464D83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JFCPWFGWUM;
+				INFOPLIST_FILE = "CPR Simulator ProjectUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chimdolin.CPR-Simulator-ProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CPR Simulator Project";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67C9D3DF1F8E651800464D83 /* Build configuration list for PBXProject "CPR Simulator Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67C9D40D1F8E651900464D83 /* Debug */,
+				67C9D40E1F8E651900464D83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67C9D40F1F8E651900464D83 /* Build configuration list for PBXNativeTarget "CPR Simulator Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67C9D4101F8E651900464D83 /* Debug */,
+				67C9D4111F8E651900464D83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67C9D4121F8E651900464D83 /* Build configuration list for PBXNativeTarget "CPR Simulator ProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67C9D4131F8E651900464D83 /* Debug */,
+				67C9D4141F8E651900464D83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67C9D4151F8E651900464D83 /* Build configuration list for PBXNativeTarget "CPR Simulator ProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67C9D4161F8E651900464D83 /* Debug */,
+				67C9D4171F8E651900464D83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		67C9D3EE1F8E651900464D83 /* CPR_Simulator_Project.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				67C9D3EF1F8E651900464D83 /* CPR_Simulator_Project.xcdatamodel */,
+			);
+			currentVersion = 67C9D3EF1F8E651900464D83 /* CPR_Simulator_Project.xcdatamodel */;
+			path = CPR_Simulator_Project.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 67C9D3DC1F8E651800464D83 /* Project object */;
+}
