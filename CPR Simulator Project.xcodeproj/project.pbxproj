@@ -18,6 +18,9 @@
 		67C9D4001F8E651900464D83 /* CPR_Simulator_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C9D3FF1F8E651900464D83 /* CPR_Simulator_ProjectTests.swift */; };
 		67C9D40B1F8E651900464D83 /* CPR_Simulator_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C9D40A1F8E651900464D83 /* CPR_Simulator_ProjectUITests.swift */; };
 		67CB20BC1F94A419003A1F41 /* WhatCPRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67CB20BB1F94A419003A1F41 /* WhatCPRViewController.swift */; };
+		67CB20BE1F94BA40003A1F41 /* HowToCPRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67CB20BD1F94BA40003A1F41 /* HowToCPRViewController.swift */; };
+		67CB20C01F94BA53003A1F41 /* StartCPRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67CB20BF1F94BA53003A1F41 /* StartCPRViewController.swift */; };
+		67CB20C41F94BC26003A1F41 /* Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67CB20C31F94BC26003A1F41 /* Gradient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,9 @@
 		67C9D40A1F8E651900464D83 /* CPR_Simulator_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPR_Simulator_ProjectUITests.swift; sourceTree = "<group>"; };
 		67C9D40C1F8E651900464D83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		67CB20BB1F94A419003A1F41 /* WhatCPRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatCPRViewController.swift; sourceTree = "<group>"; };
+		67CB20BD1F94BA40003A1F41 /* HowToCPRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToCPRViewController.swift; sourceTree = "<group>"; };
+		67CB20BF1F94BA53003A1F41 /* StartCPRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartCPRViewController.swift; sourceTree = "<group>"; };
+		67CB20C31F94BC26003A1F41 /* Gradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +104,8 @@
 				67C9D3E91F8E651900464D83 /* ViewController.swift */,
 				67A401F71F914753001EE1BF /* MainViewController.swift */,
 				67CB20BB1F94A419003A1F41 /* WhatCPRViewController.swift */,
+				67CB20BD1F94BA40003A1F41 /* HowToCPRViewController.swift */,
+				67CB20BF1F94BA53003A1F41 /* StartCPRViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -123,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				67B730AD1F9490C1003FE9C2 /* UIViewX.swift */,
+				67CB20C31F94BC26003A1F41 /* Gradient.swift */,
 			);
 			path = DesignableX;
 			sourceTree = "<group>";
@@ -312,11 +321,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				67CB20BC1F94A419003A1F41 /* WhatCPRViewController.swift in Sources */,
+				67CB20C01F94BA53003A1F41 /* StartCPRViewController.swift in Sources */,
 				67C9D3EA1F8E651900464D83 /* ViewController.swift in Sources */,
 				67C9D3F01F8E651900464D83 /* CPR_Simulator_Project.xcdatamodeld in Sources */,
 				67C9D3E81F8E651900464D83 /* AppDelegate.swift in Sources */,
+				67CB20BE1F94BA40003A1F41 /* HowToCPRViewController.swift in Sources */,
 				67B730AE1F9490C1003FE9C2 /* UIViewX.swift in Sources */,
 				67A401F81F914753001EE1BF /* MainViewController.swift in Sources */,
+				67CB20C41F94BC26003A1F41 /* Gradient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

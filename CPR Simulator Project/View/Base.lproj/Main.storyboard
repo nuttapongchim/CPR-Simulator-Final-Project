@@ -41,7 +41,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="834" height="529"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </view>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.84999999999999998" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background-gray" translatesAutoresizingMaskIntoConstraints="NO" id="pl4-GB-CL3">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background-gray" translatesAutoresizingMaskIntoConstraints="NO" id="pl4-GB-CL3">
                                         <rect key="frame" x="0.0" y="0.0" width="834" height="529"/>
                                     </imageView>
                                     <view alpha="0.80000000000000004" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jBr-dP-4nt" customClass="UIViewX" customModule="CPR_Simulator_Project" customModuleProvider="target">
@@ -86,7 +86,7 @@
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wq2-bw-NFK">
                                         <rect key="frame" x="0.0" y="0.0" width="266" height="250"/>
-                                        <color key="backgroundColor" red="0.96470120429999995" green="0.97679094070000005" blue="0.99208835660000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.57803550999999997" green="0.86921918659999997" blue="0.93054016380000004" alpha="0.048854880140000001" colorSpace="custom" customColorSpace="displayP3"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="38"/>
                                         <size key="titleShadowOffset" width="4" height="3"/>
                                         <state key="normal" title="CPR คืออะไร ?">
@@ -100,10 +100,10 @@
                                 </subviews>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="250" id="7jf-cX-TTx"/>
-                                    <constraint firstAttribute="trailing" secondItem="Wq2-bw-NFK" secondAttribute="trailing" id="Glz-6E-QKX"/>
-                                    <constraint firstItem="Wq2-bw-NFK" firstAttribute="leading" secondItem="MRj-dK-sEq" secondAttribute="leading" id="dpH-om-ATg"/>
-                                    <constraint firstItem="Wq2-bw-NFK" firstAttribute="top" secondItem="MRj-dK-sEq" secondAttribute="top" id="fFW-iV-WE2"/>
-                                    <constraint firstAttribute="bottom" secondItem="Wq2-bw-NFK" secondAttribute="bottom" id="oMw-6N-fw3"/>
+                                    <constraint firstAttribute="bottom" secondItem="Wq2-bw-NFK" secondAttribute="bottom" id="CBr-up-BqS"/>
+                                    <constraint firstItem="Wq2-bw-NFK" firstAttribute="leading" secondItem="MRj-dK-sEq" secondAttribute="leading" id="asH-Ic-m7S"/>
+                                    <constraint firstItem="Wq2-bw-NFK" firstAttribute="top" secondItem="MRj-dK-sEq" secondAttribute="top" id="fyp-Lw-pWa"/>
+                                    <constraint firstAttribute="trailing" secondItem="Wq2-bw-NFK" secondAttribute="trailing" id="kYd-gi-1t4"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yCb-Ue-PPl">
@@ -111,21 +111,24 @@
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kAE-gf-ZTn">
                                         <rect key="frame" x="0.0" y="0.0" width="496" height="250"/>
-                                        <color key="backgroundColor" red="0.96470120429999995" green="0.97679094070000005" blue="0.99208835660000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.57647058823529407" green="0.87058823529411766" blue="0.92941176470588238" alpha="0.048854880136986301" colorSpace="custom" customColorSpace="displayP3"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="38"/>
                                         <size key="titleShadowOffset" width="4" height="3"/>
                                         <state key="normal" title="เรียนรู้การทำ CPR">
                                             <color key="titleColor" red="0.1764705882" green="0.15686274510000001" blue="0.1960784314" alpha="0.69747966610000001" colorSpace="custom" customColorSpace="displayP3"/>
                                             <color key="titleShadowColor" red="0.56078431370000004" green="0.76078431369999999" blue="0.94117647059999998" alpha="0.40000000000000002" colorSpace="custom" customColorSpace="displayP3"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="pOg-J3-6CO" kind="show" id="ueQ-yj-cp5"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="kAE-gf-ZTn" firstAttribute="top" secondItem="yCb-Ue-PPl" secondAttribute="top" id="ELH-TI-amf"/>
+                                    <constraint firstAttribute="bottom" secondItem="kAE-gf-ZTn" secondAttribute="bottom" id="0XY-S2-UTx"/>
                                     <constraint firstAttribute="height" constant="250" id="F7i-nR-K4j"/>
-                                    <constraint firstAttribute="trailing" secondItem="kAE-gf-ZTn" secondAttribute="trailing" id="MqS-Tn-cfS"/>
-                                    <constraint firstItem="kAE-gf-ZTn" firstAttribute="leading" secondItem="yCb-Ue-PPl" secondAttribute="leading" id="b6H-ux-1Pr"/>
-                                    <constraint firstAttribute="bottom" secondItem="kAE-gf-ZTn" secondAttribute="bottom" id="vRd-wq-k3Q"/>
+                                    <constraint firstAttribute="trailing" secondItem="kAE-gf-ZTn" secondAttribute="trailing" id="IJt-nL-lHL"/>
+                                    <constraint firstItem="kAE-gf-ZTn" firstAttribute="top" secondItem="yCb-Ue-PPl" secondAttribute="top" id="LMG-OP-4M2"/>
+                                    <constraint firstItem="kAE-gf-ZTn" firstAttribute="leading" secondItem="yCb-Ue-PPl" secondAttribute="leading" id="VwT-j3-I8b"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rtf-Gp-VUj">
@@ -133,25 +136,27 @@
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KB7-w6-oY9">
                                         <rect key="frame" x="0.0" y="0.0" width="794" height="247"/>
-                                        <color key="backgroundColor" red="0.84548929880000001" green="0.96726284900000004" blue="0.90525725349999997" alpha="0.2284086044520548" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.57803550999999997" green="0.86921918659999997" blue="0.93054016380000004" alpha="0.048854880140000001" colorSpace="custom" customColorSpace="displayP3"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="52"/>
                                         <size key="titleShadowOffset" width="4" height="3"/>
                                         <state key="normal" title="เริ่มทำ CPR">
                                             <color key="titleColor" red="0.1764705882" green="0.15686274510000001" blue="0.1960784314" alpha="0.69747966610000001" colorSpace="custom" customColorSpace="displayP3"/>
                                             <color key="titleShadowColor" red="0.56078431370000004" green="0.76078431369999999" blue="0.94117647059999998" alpha="0.40000000000000002" colorSpace="custom" customColorSpace="displayP3"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="GWQ-yc-gNf" kind="show" id="aTm-S5-JYM"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="KB7-w6-oY9" firstAttribute="leading" secondItem="rtf-Gp-VUj" secondAttribute="leading" id="3V9-nL-l5C"/>
-                                    <constraint firstItem="KB7-w6-oY9" firstAttribute="top" secondItem="rtf-Gp-VUj" secondAttribute="top" id="5Za-Gg-RgX"/>
+                                    <constraint firstAttribute="bottom" secondItem="KB7-w6-oY9" secondAttribute="bottom" id="651-6W-5b3"/>
                                     <constraint firstAttribute="height" constant="247" id="DsL-6h-zFM"/>
-                                    <constraint firstAttribute="bottom" secondItem="KB7-w6-oY9" secondAttribute="bottom" id="a6E-BD-D4j"/>
-                                    <constraint firstAttribute="trailing" secondItem="KB7-w6-oY9" secondAttribute="trailing" id="q54-xp-484"/>
+                                    <constraint firstItem="KB7-w6-oY9" firstAttribute="leading" secondItem="rtf-Gp-VUj" secondAttribute="leading" id="ksz-Lf-rhH"/>
+                                    <constraint firstAttribute="trailing" secondItem="KB7-w6-oY9" secondAttribute="trailing" id="obs-R0-j9J"/>
+                                    <constraint firstItem="KB7-w6-oY9" firstAttribute="top" secondItem="rtf-Gp-VUj" secondAttribute="top" id="tWX-82-HhS"/>
                                 </constraints>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" red="0.99215686274509807" green="0.98431372549019602" blue="0.99607843137254903" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="rtf-Gp-VUj" secondAttribute="bottom" constant="20" id="FuH-Iu-eNE"/>
                             <constraint firstItem="ERv-tT-h2w" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="FvH-r8-1Qk"/>
@@ -174,6 +179,7 @@
                     <connections>
                         <outlet property="headerTransitionView" destination="jBr-dP-4nt" id="fTl-GP-olK"/>
                         <outlet property="howToCPRBtn" destination="kAE-gf-ZTn" id="VEA-6m-PS0"/>
+                        <outlet property="mainView" destination="8bC-Xf-vdC" id="bWU-f3-w7Z"/>
                         <outlet property="startCPRBtn" destination="KB7-w6-oY9" id="y7r-Jw-cea"/>
                         <outlet property="viewShadow" destination="1Ek-mt-AcS" id="en4-fJ-ifm"/>
                         <outlet property="whatCPRBtn" destination="Wq2-bw-NFK" id="D3r-g4-cpv"/>
@@ -190,13 +196,51 @@
                     <view key="view" contentMode="scaleToFill" id="lCi-3v-O17">
                         <rect key="frame" x="0.0" y="0.0" width="834" height="1112"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.99215686274509807" green="0.98431372549019602" blue="0.99607843137254903" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="6Hu-Z6-Utx"/>
                     </view>
+                    <connections>
+                        <outlet property="mainView" destination="lCi-3v-O17" id="QQp-YS-WxS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MRZ-Rb-U5G" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="262" y="25"/>
+            <point key="canvasLocation" x="-1086" y="697"/>
+        </scene>
+        <!--StartCPR View Controller-->
+        <scene sceneID="Zda-Mh-lGQ">
+            <objects>
+                <viewController id="GWQ-yc-gNf" customClass="StartCPRViewController" customModule="CPR_Simulator_Project" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="q5y-cP-hhE">
+                        <rect key="frame" x="0.0" y="0.0" width="834" height="1112"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="3iv-fF-Oht"/>
+                    </view>
+                    <connections>
+                        <outlet property="mainView" destination="q5y-cP-hhE" id="vHh-Dh-TOB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bKm-4Z-7an" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-458" y="697"/>
+        </scene>
+        <!--How ToCPR View Controller-->
+        <scene sceneID="Nbc-0n-kb2">
+            <objects>
+                <viewController id="pOg-J3-6CO" customClass="HowToCPRViewController" customModule="CPR_Simulator_Project" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BkC-yp-YNF">
+                        <rect key="frame" x="0.0" y="0.0" width="834" height="1112"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="BAY-bq-Mta"/>
+                    </view>
+                    <connections>
+                        <outlet property="mainView" destination="BkC-yp-YNF" id="4Lq-Gd-hjy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CG7-AJ-M8Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="171" y="25"/>
         </scene>
     </scenes>
     <resources>

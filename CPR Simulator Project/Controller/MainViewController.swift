@@ -10,6 +10,7 @@ import UIKit
 
 class MainViewController: UIViewController {
 
+    @IBOutlet var mainView: UIView!
     @IBOutlet weak var whatCPRBtn: UIButton!
     @IBOutlet weak var howToCPRBtn: UIButton!
     @IBOutlet weak var startCPRBtn: UIButton!
@@ -49,7 +50,8 @@ class MainViewController: UIViewController {
         whatCPRBtn.layer.shadowColor = UIColor(red:0.64, green:0.82, blue:0.88, alpha:1.00).cgColor
         whatCPRBtn.layer.shadowRadius = 3
         whatCPRBtn.layer.shadowOpacity = 1
-        whatCPRBtn.layer.shadowOffset = CGSize(width:3 ,height:3)
+        whatCPRBtn.layer.shadowOffset = CGSize(width:5 ,height:5)
+        
         
         howToCPRBtn.layer.cornerRadius = 3
         howToCPRBtn.layer.borderWidth = 1
@@ -57,7 +59,8 @@ class MainViewController: UIViewController {
         howToCPRBtn.layer.shadowColor = UIColor(red:0.64, green:0.82, blue:0.88, alpha:1.00).cgColor
         howToCPRBtn.layer.shadowRadius = 3
         howToCPRBtn.layer.shadowOpacity = 1
-        howToCPRBtn.layer.shadowOffset = CGSize(width:3 ,height:3)
+        howToCPRBtn.layer.shadowOffset = CGSize(width:5 ,height:5)
+    
         
         startCPRBtn.layer.cornerRadius = 3
         startCPRBtn.layer.borderWidth = 1
@@ -65,7 +68,8 @@ class MainViewController: UIViewController {
         startCPRBtn.layer.shadowColor = UIColor(red:0.64, green:0.82, blue:0.88, alpha:1.00).cgColor
         startCPRBtn.layer.shadowRadius = 3
         startCPRBtn.layer.shadowOpacity = 1
-        startCPRBtn.layer.shadowOffset = CGSize(width:3 ,height:3)
+        startCPRBtn.layer.shadowOffset = CGSize(width:5 ,height:5)
+        
         
         //make view shadow
         viewShadow.layer.masksToBounds = false
@@ -85,7 +89,11 @@ class MainViewController: UIViewController {
         colorArray.append((color1: UIColor(red:0.68, green:0.64, blue:0.84, alpha:1.00),color2: UIColor(red:0.62, green:0.69, blue:0.84, alpha:1.00)))
         colorArray.append((color1: UIColor(red:0.62, green:0.69, blue:0.84, alpha:1.00),color2: UIColor(red:0.55, green:0.76, blue:0.84, alpha:1.00)))
 
+        // call animateBackgroundColor method
         animateBackgroundColor()
+        
+        //set mainView
+        self.mainView.setGradientBackground(colorOne: UIColor(red:0.90, green:0.91, blue:0.94, alpha:1.0), colorTwo: UIColor(red:0.93, green:0.95, blue:0.96, alpha:1.0))
         
     }
 
