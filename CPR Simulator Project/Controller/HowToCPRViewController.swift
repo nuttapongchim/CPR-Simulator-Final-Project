@@ -9,20 +9,9 @@
 import UIKit
 
 class HowToCPRViewController: UIViewController {
-
-    @IBOutlet var mainView: UIView!
-    
-    func customUI() {
-        
-        //set mainView
-        self.mainView.setGradientBackground(colorOne: UIColor(red:0.90, green:0.91, blue:0.94, alpha:1.0), colorTwo: UIColor(red:0.93, green:0.95, blue:0.96, alpha:1.0))
-        
-    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        customUI()
         
     }
 
