@@ -122,7 +122,7 @@
                                             <color key="titleShadowColor" red="0.56078431370000004" green="0.76078431369999999" blue="0.94117647059999998" alpha="0.40000000000000002" colorSpace="custom" customColorSpace="displayP3"/>
                                         </state>
                                         <connections>
-                                            <segue destination="pOg-J3-6CO" kind="show" id="ueQ-yj-cp5"/>
+                                            <segue destination="RhM-PI-2FG" kind="show" id="vYX-zz-c4c"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -191,6 +191,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-458.27338129496405" y="24.820143884892087"/>
+        </scene>
+        <!--How ToCPR Page View Controller-->
+        <scene sceneID="75g-o3-FeU">
+            <objects>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="RhM-PI-2FG" customClass="HowToCPRPageViewController" customModule="CPR_Simulator_Project" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oHc-Gq-C5n" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="221" y="25"/>
         </scene>
         <!--WhatCPR View Controller-->
         <scene sceneID="PJO-Ic-Ijh">
@@ -332,10 +340,10 @@
             </objects>
             <point key="canvasLocation" x="-458.27338129496405" y="695.50359712230215"/>
         </scene>
-        <!--How ToCPR Page View Controller-->
+        <!--How ToCPR View Controller-->
         <scene sceneID="Nbc-0n-kb2">
             <objects>
-                <viewController id="pOg-J3-6CO" customClass="HowToCPRPageViewController" customModule="CPR_Simulator_Project" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HowToPrepare" id="pOg-J3-6CO" customClass="HowToCPRViewController" customModule="CPR_Simulator_Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="BkC-yp-YNF" customClass="UIViewX" customModule="CPR_Simulator_Project" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="834" height="1112"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -354,7 +362,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CG7-AJ-M8Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="271" y="25"/>
+            <point key="canvasLocation" x="-458" y="-630"/>
         </scene>
         <!--How ToCPR View Controller-->
         <scene sceneID="JCt-03-Vip">
@@ -401,7 +409,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YxE-EI-1PS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="271" y="-630"/>
+            <point key="canvasLocation" x="221" y="-630"/>
         </scene>
         <!--How ToCPR View Controller-->
         <scene sceneID="Cuj-XW-l4e">
@@ -447,7 +455,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2pL-cf-60J" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="968" y="-630"/>
+            <point key="canvasLocation" x="932" y="-630"/>
         </scene>
         <!--How ToCPR View Controller-->
         <scene sceneID="hEb-AQ-Ije">

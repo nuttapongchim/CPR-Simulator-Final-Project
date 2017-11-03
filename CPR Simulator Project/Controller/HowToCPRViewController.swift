@@ -10,8 +10,15 @@ import UIKit
 
 class HowToCPRViewController: UIViewController {
     
+    func customUI() {
+        //custom navigation and statusbar
+        self.navigationController?.isNavigationBarHidden = true
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        customUI()
         
     }
 

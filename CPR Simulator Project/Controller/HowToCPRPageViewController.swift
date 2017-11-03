@@ -12,7 +12,8 @@ class HowToCPRPageViewController: UIPageViewController,UIPageViewControllerDeleg
     
     
     lazy var orderedViewControllers: [UIViewController] = {
-        return [self.newVc(viewController: "HowToStep1"),
+        return [self.newVc(viewController: "HowToPrepare"),
+                self.newVc(viewController: "HowToStep1"),
                 self.newVc(viewController: "HowToStep2"),
                 self.newVc(viewController: "HowToStep3"),
                 self.newVc(viewController: "HowToStep4"),
